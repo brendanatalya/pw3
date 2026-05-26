@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+
+main {
+    flex: 1;
+}
+
+.principal {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+    font-family: SylfBankGothic Md BT;
+    font-weight: normal;
+    font-size: 45px;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+.tabelaresponsiva {
+    overflow-x: auto;
+    text-align: center;
+    border-radius: 10pt;
+}
+
+.titulo {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    background-color: #153436;
+    border-radius: 20pt;
+    padding: 20px;
+}
+
+.centralizar {
+  display: flex;
+  justify-content: center;
+  align-items: center;              
+  text-align: center;      
+}
+
+.imgtabela {
+	width: 150px;
+}
+
+.botao {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.textofooter {
+    font-size: 25px;
+}
+
+footer{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+/*ver medico*/
+
+.vermedico {
+    font-size: 20pt;
+    text-align: left;
+}
+
+.fotomedico {
+    width: 25%;
+    margin: 3%;
+    align-self: center;
+}
+
+.tabelaresponsivaver {
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow-x: auto;
+    border-radius: 10pt;
+}
+
+.titulotabela {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/*alteracao*/
+
+.formulario {
+    margin-bottom: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+	margin-top: 2%;
+    background-image: linear-gradient(to top, #7cbfc4 , #1b2d2e);
+    padding: 3%;
+    font-size: 20px;
+    border-radius: 4%;
+    color: white;
+}
+
+.fotoestilo {
+    width: 40%;
+    border-radius: 2px;
+    border: 1px solid #ffffff;
+    margin-top: 10px;
+}
+
+.concluido {
+    font-size: 30px;
+    text-align: center;
+
+    color:#000000;
+}
+
+.ocupar {
+    flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.avisos {
+    background-color: #FFF;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+}
+
+/*pagina inicial*/
+
+.fundo {
+    background: linear-gradient(to right, #00c6ff, #b62f89);
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ajuste do warning para rosa*/
+
+.btn-outline-danger {
+    background-color: #b62f8900; 
+    color: #b62f89;            
+    border: #b62f89 2px solid; 
+}
+
+.btn-outline-danger:hover {
+    background-color: #b62f89;
+    border: #b62f89 2px solid; 
+    color: #ffffff;
+}
+
+.btn-danger {
+    background-color: #b62f89; 
+    color: #ffffff;            
+    border: #b62f89 2px solid; 
+}
+
+.btn-danger:hover {
+    background-color: #721b55; 
+    color: #ffffff;            
+    border: #b62f89 2px solid; 
+}
+
+
+@media (max-width: 1000px) {
+    .fotomedico {
+        width: 65%;
+        margin: 3%;
+    }
+
+    .titulo {
+        font-size: 32px;
+    }
+
+    .formulario {
+        margin-bottom: 2%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 2%;
+        background-image: linear-gradient(to top, #7cbfc4 , #1b2d2e);
+        padding: 3%;
+        font-size: 20px;
+        border-radius: 4%;
+        color: white;
+    }
+
+    .fotoestilo {
+        width: 50%;
+        border-radius: 2px;
+        border: 1px solid #ffffff;
+        margin-top: 10px;
+    }
+
+    .diminuir {
+        font-size: 13px;
+        padding-right: 20px;
+    }
+
+    .concluido{
+        font-size: 20px;
+    }
+}
