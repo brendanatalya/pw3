@@ -63,7 +63,7 @@
                 </ul>
                 <ul class="navbar-nav mb-2 mb-lg-0 nav-underline">
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #5bc8dc">
                         <i class="fa-solid fa-user-doctor"></i> MÉDICOS
                     </a>
                     <ul class="dropdown-menu">
@@ -76,7 +76,7 @@
                 </ul>
                 <ul class="navbar-nav mb-2 mb-lg-0 nav-underline">
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #ff5bc8">
                         <i class="fa-solid fa-newspaper"></i> REVISTAS
                     </a>
                     <ul class="dropdown-menu">

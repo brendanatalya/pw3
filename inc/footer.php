@@ -38,7 +38,7 @@
                             Médicos
                         </span>
                         <span class="d-flex align-items-center gap-2 text-secondary small">
-                            <i class="fa-solid fa-newspaper" style="color: #e879a0;"></i>
+                            <i class="fa-solid fa-newspaper" style="color: #ff5bc8;"></i>
                             Revistas
                         </span>
                     </div>
