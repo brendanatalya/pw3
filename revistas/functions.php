@@ -296,9 +296,9 @@
             $semfoto = $_SERVER['DOCUMENT_ROOT'] . "/pw3_2bim/revistas/fotos/semimagem.jpg";
 
             if (!empty($revista['foto']) && file_exists($comfoto)) {
-                $pdf->Image($comfoto, $xfoto + 5, $y + 2, 26, 0);
+                $pdf->Image($comfoto, $xfoto + 8, $y + 2, 26, 0);
             } elseif (file_exists($semfoto)) {
-                $pdf->Image($semfoto, $xfoto + 5, $y + 2, 26, 0);
+                $pdf->Image($semfoto, $xfoto + 8, $y + 2, 26, 0);
             }
 
             //$pdf->Image($comfoto, $x + 2, $y + 2, 26, 16);
